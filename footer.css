@@ -1,0 +1,215 @@
+@font-face {
+    font-family: netflix1;
+    src: url(/NetflixSans_W_Rg.woff2);
+}
+@font-face {
+    font-family: netflix2;
+    src: url(/NetflixSans_W_Bd.woff2);
+}
+@font-face {
+    font-family: netflix3;
+    src: url(/NetflixSans_W_Blk.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    
+}
+.navbar .lg12{
+    width: 14%;
+}
+.navbar{
+    margin: 0;
+}
+.main1{
+    height: 1100px;
+    background-image: url(/big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    position: absolute;
+    width: 100%;
+    margin: 1rem 0 0 0;
+    color: #fff;
+    top: 0;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+}
+.login-sec{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 68px 40px;
+}
+.login-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #000000ad;
+    padding: 50px 68px 40px;
+    border-radius: 2px;
+   height: 620px;
+}
+
+.login-page h1{
+    margin: 1rem 0 1rem 0;
+    font-family: netflix1;
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+}
+.login-page input{
+    height: 49px;
+    padding: 0 1rem;
+    margin: 1rem 0 0 0;
+    background-color: #333333;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+.login-page p{
+    font-size: 14px;
+    color: #8b8b8b;
+    font-family: netflix1;
+    
+}
+.login-page .pp{
+    font-size: 14px;
+    color: #8b8b8b;
+    font-family: netflix1;
+    margin-top: 2rem;
+}
+.login-page .bot{
+    font-size: 12px;
+}
+.login-page .recaptcha {
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+    font-family: netflix1;
+    padding: 0;
+}
+.login-page a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.login button{
+    padding: 1rem 0.9rem;
+    background-color: red;
+    border: none;
+    margin: 2rem 0 0 0;
+    color: #fff;
+    font-weight: 400;
+    font-family: netflix2;
+    font-size:15px;
+    border-radius: 4px;
+}
+.footer-nav{
+    height: 300px;
+    background-color: #000000af;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 2;
+    top: 800px;
+    position: absolute;
+}
+
+.banner1{
+        height: 1100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.566);
+       
+}
+
+.login-page ul {
+    display: flex;
+    align-items: center;
+}
+.menu-fo{
+    width: 70%;
+    text-decoration: none;
+    font-family: netflix1;
+    margin-top: 3rem;
+  
+}
+.footer-nav p{
+    color: #727272;
+    padding:  0 0.5rem;
+}
+.end{
+    color: #727272;
+    margin:  1rem 0 0 0;
+
+}
+.menu-fo a{
+    color: #727272;
+    text-decoration: none;
+}
+.menu-fo ul {
+    display: flex;
+    color: #fff;
+    margin: 1rem 0 0 0;
+    list-style: none;
+}
+
+.login-page .check {
+   margin: 0;
+
+}
+.login-page ul a{
+    color: #9e9e9e;
+    font-size: 12px;
+    font-family: netflix1;
+    text-decoration: none;
+    margin-left: 48%;
+}
+
+.login-page ul p {
+    font-family: netflix1;
+    font-size: 12px;
+    color: #9e9e9e;
+
+ }
+   
+.menu-fo ul li{
+    width: 25%;
+    font-size: 12px;
+    padding:  0 0.5rem;
+    color: #a6a6a6;
+
+}
+
+.last{
+    width: 75%;
+}
+
+.ss{
+    margin: 1rem 0 0 1rem ;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #6564649e;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+}
